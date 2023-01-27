@@ -11,4 +11,4 @@ mv JioTV-main JioTV
 echo Trying
 cd /opt/render/project/src/JioTV
 php -S localhost:8080 -t "JioTV"
-echo hosted
+echo Jio TV + live
