@@ -5,8 +5,8 @@ echo moved into space
 echo installing JTVServer
 wget https://github.com/avipatilpro/JioTV/archive/refs/heads/main.zip
 unzip main.zip
-ls
-mv /opt/render/project/src/JioTV/JioTV-main /opt/render/project/src/JioTV/JioTV
+mv JioTV-main JioTV
+echo Trying
 cd ../
 php -S localhost:8080 -t "JioTV"
 echo hosted
