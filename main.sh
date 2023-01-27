@@ -9,5 +9,7 @@ mv JioTV-main JioTV
 ls
 echo Trying
 cd /opt/render/project/src/JioTV
+ls
+apt install php
 php -S localhost:8080 -t "JioTV"
 echo hosted
