@@ -3,7 +3,7 @@ mkdir JioTV
 cd JioTV
 echo moved into space
 echo installing JTVServer
-git clone https://github.com/avipatilpro/JioTV.git
+wget https://github.com/avipatilpro/JioTV/archive/refs/heads/main.zip
 cd ../
 php -S localhost:8080 -t "JioTV"
 echo hosted
